@@ -1,3 +1,42 @@
-[gd_scene format=3 uid="uid://cih4rf7c6r4co"]
+[gd_scene load_steps=2 format=3 uid="uid://cih4rf7c6r4co"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_86qhr"]
 
 [node name="main" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.424323, 0, 0.953574)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_86qhr")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.783964, 0.620806, 0, -0.620806, 0.783964, 0, 1.17975, 1.37732)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+offset_right = 144.0
+offset_bottom = 643.0
+alignment = 1
+
+[node name="Button" type="Button" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "开始游戏"
+
+[node name="Button2" type="Button" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "游戏设置"
+
+[node name="Button3" type="Button" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "关于制作组"
+
+[node name="Button4" type="Button" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "退出游戏"
