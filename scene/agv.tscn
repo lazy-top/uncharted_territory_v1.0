@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://ppg48gd31j6o"]
+
+[ext_resource type="PackedScene" uid="uid://c6kro2hlkvmph" path="res://model/forklift/agv_-_maxmover__fork_over_leg.glb" id="1_footy"]
+
+[node name="agv" instance=ExtResource("1_footy")]
+
+[node name="HUD3" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode" index="1"]
+visible = false
+
+[node name="Object_18" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode/HUD3" index="0"]
+visible = false
+
+[node name="HUD3_HUD2_0" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode/HUD3/Object_18" index="0"]
+visible = false
+
+[node name="HUD2" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode" index="2"]
+visible = false
+
+[node name="HUD2_HUD1_0" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode/HUD2" index="0"]
+visible = false
+
+[node name="Plane004" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode" index="4"]
+visible = false
+
+[node name="Plane005" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode" index="5"]
+visible = false
+
+[node name="Plane005_Length 263 cm_0" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode/Plane005/Object_30" index="0"]
+visible = false
+
+[node name="Plane006" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode" index="6"]
+visible = false
+
+[node name="Object_33" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode/Plane006" index="0"]
+visible = false
+
+[node name="Plane006_Height 214 cm_0" parent="Sketchfab_model/5545154e37c54234912e0f4289416a26_fbx/RootNode/Plane006/Object_33" index="0"]
+visible = false

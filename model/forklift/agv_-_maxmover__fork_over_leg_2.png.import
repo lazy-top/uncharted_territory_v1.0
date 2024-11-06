@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://gkxvny5x2ovr"
+path.s3tc="res://.godot/imported/agv_-_maxmover__fork_over_leg_2.png-d03e10a60e5004969b6b89a2a3c77204.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "d6b4b349700a97bb1acd8686e13556af"
+}
+
+[deps]
+
+source_file="res://model/forklift/agv_-_maxmover__fork_over_leg_2.png"
+dest_files=["res://.godot/imported/agv_-_maxmover__fork_over_leg_2.png-d03e10a60e5004969b6b89a2a3c77204.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

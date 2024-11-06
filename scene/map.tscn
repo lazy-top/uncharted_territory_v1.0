@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://du257vti5dae4"]
+
+[ext_resource type="Script" path="res://map.gd" id="1_r4rca"]
+
+[node name="map" type="Node3D"]
+script = ExtResource("1_r4rca")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 15, 22)

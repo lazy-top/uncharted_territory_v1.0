@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://sl8kvs3w6srk"]
+
+[ext_resource type="PackedScene" uid="uid://ppg48gd31j6o" path="res://scene/agv.tscn" id="1_0xe8q"]
+[ext_resource type="Script" path="res://scene/forklift.gd" id="1_bhgj4"]
+[ext_resource type="Script" path="res://scene/agv.gd" id="3_ukmwj"]
+[ext_resource type="Script" path="res://scene/trajectory_lines.gd" id="4_da0pg"]
+
+[node name="map" type="Node3D"]
+script = ExtResource("1_bhgj4")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22.7456, 49.0897)
+
+[node name="agv" parent="." instance=ExtResource("1_0xe8q")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -8.74228e-09, 0, 8.74228e-09, 0.05, 0, 0, 0)
+script = ExtResource("3_ukmwj")
+
+[node name="trajectory_lines" type="Node3D" parent="agv"]
+script = ExtResource("4_da0pg")
